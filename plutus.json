@@ -1,0 +1,31 @@
+{
+  "preamble": {
+    "title": "paulm/minting",
+    "description": "Aiken contracts for project 'paulm/minting'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.0.20-alpha+c2725ab"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "minter.gift_card",
+      "redeemer": {
+        "title": "rdmr",
+        "schema": {
+          "$ref": "#/definitions/Int"
+        }
+      },
+      "compiledCode": "58520100003232323232322232533300532323253330083370e900018049baa0011323370e00a90447ac4c38618038008b1805000980500098020010a4c26cac6eb40088c010dd5000ab9a5573aaae795d0aba21",
+      "hash": "d62b06db769cef9852135843641a9924f73c9860b84792651683b4eb"
+    }
+  ],
+  "definitions": {
+    "Int": {
+      "dataType": "integer"
+    }
+  }
+}
